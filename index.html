@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mark Njoroge-PORTFOLIO</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body id="top" style="background-color: rgb(173, 142, 142)">
     <!-- header section -->
@@ -43,6 +43,7 @@
       <!-- about section -->
       <section id="about">
         <img
+          class="resources"
           src="resources/image/WhatsApp Image 2025-03-11 at 13.49.07_a383ae9b.jpg"
           alt="profile photo of a Mark"
           width="200"
@@ -103,8 +104,9 @@
         <p>Here is a video to help you know more about me:</p>
         <br />
         <video
+          class="resources"
           controls
-          src="video/backend developer.mp4"
+          src="resources/video/backend developer.mp4"
           type="mp4"
           width="500"
         ></video>
@@ -114,38 +116,39 @@
         </p>
         <!-- contact form -->
         <form>
-          <div>
+          <div class="form">
             <label for="name">Name</label>
             <input type="text" id="name" required /><br /><br />
           </div>
-          <div>
+          <div class="form">
             <label for="Address">Address</label>
             <input type="text" id="address" required /><br /><br />
           </div>
-          <div>
+          <div class="form">
             <label for="email">Email</label>
             <input type="email" id="email" required /><br /><br />
           </div>
-          <div>
+          <div class="form">
             <label for="comment">Comment</label><br />
 
             <textarea
               rows="10"
               cols="40"
               placeholder="write something"
-              name=" Comment"
-              id=" Comment"
+              name="Comment"
+              id="Comment"
             ></textarea>
           </div>
           <button>Submit</button>
-        </form> <hr>
+        </form>
+        <hr />
       </section>
     </main>
-    
+
     <!-- footer section -->
     <footer>
-      <p> &copy; 2025 Mark Njoroge. All rights reserved</p>
-      
+      <p>&copy; 2025 Mark Njoroge. All rights reserved</p>
+
       <br />
       <a href="#top">Back to the top</a>
     </footer>

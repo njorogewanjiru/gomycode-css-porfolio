@@ -1,0 +1,49 @@
+/* reset styles */
+* {
+  box-sizing: border-box;
+  border: 5;
+  padding: 4;
+  font-size: 16px;
+  font-family: roboto;
+}
+nav {
+  text-align: center;
+}
+
+/* reset nav li */
+nav li {
+  list-style: none;
+  display: inline;
+}
+/* reset nav a */
+nav a {
+  text-decoration: none;
+  background-color: rgb(40, 202, 202);
+  padding: 10px;
+  font-size: 24px;
+  text-transform: capitalize;
+  border-radius: 20px;
+  text-align: center;
+}
+/* reset h1 */
+h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 20px;
+}
+/* reset h2 */
+h2 {
+  font-size: 20px;
+  color: rgb(13, 26, 172);
+  text-align: justify;
+}
+/* form style */
+.form {
+  background-color: rgb(45, 112, 89);
+  font-size: 20px;
+}
+/* resources style */
+.resources {
+    border-radius: 15px;
+}
